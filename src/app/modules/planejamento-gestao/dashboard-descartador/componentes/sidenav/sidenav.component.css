@@ -6,18 +6,18 @@ section {
   
   .example-label {
     display: table-cell;
-    font-size: 14px;
+    font-size: 20px;
     margin-left: 8px;
     min-width: 120px;
   }
   
   .example-button-row {
     display: table-cell;
-    max-width: 600px;
+    max-width: 900px;
   }
   
   .example-button-row .mat-mdc-button-base {
-    margin: 8px 8px 8px 0;
+    margin: 12px 12px 12px 0;
   }
   
   .example-flex-container {
@@ -30,6 +30,11 @@ section {
   .example-button-container {
     display: flex;
     justify-content: center;
-    width: 120px;
+    width: 170px;
     flex-direction: column;
+  }
+  
+  button {
+    background-color: #2B463C;
+    color: white;
   }
