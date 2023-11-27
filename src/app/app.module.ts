@@ -9,6 +9,11 @@ import { SidebarComponent } from './dashboard-descartador/sidebar/sidebar.compon
 import { AvatarIconComponent } from './dashboard-descartador/avatar-icon/avatar-icon.component';
 import { CardComponent } from './dashboard-descartador/card/card.component';
 import { BadgeComponent } from './dashboard-descartador/badge/badge.component';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatCardModule } from '@angular/material/card';
+import { Card2Component } from './dashboard-descartador/card2/card2.component';
+
+
 
 @NgModule({
   declarations: [
@@ -18,11 +23,15 @@ import { BadgeComponent } from './dashboard-descartador/badge/badge.component';
     SidebarComponent,
     AvatarIconComponent,
     CardComponent,
-    BadgeComponent
+    BadgeComponent,
+    Card2Component,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatButtonToggleModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
