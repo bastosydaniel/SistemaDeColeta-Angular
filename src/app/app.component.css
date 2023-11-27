@@ -1,8 +1,21 @@
 #container{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width:100vw;
     height: 100vh;
     background-image: url(../assets/images/giroverdebg.png);
 }
+
+#container-apps{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width:80vw;
+}
+
+#container-apps2{
+    display: flex;
+    flex-direction: column;
+}
+
