@@ -1,3 +1,17 @@
 O wireframe para desktop aparentemente não existe, então esse é uma adaptação da versão mobile. Não me responsabilizo pela estética.
 
-Começando o desenvolvimento, optei por começar a criação dos componentes em shared, Icone, sidebar, entre outros. Utilizarei Angular Material.
+Começando o desenvolvimento, optei por começar a criação dos componentes baseados nas outras versões desktop, utilizando Angular Material.
+O sidenav foi feito com botões de ícone nativos de material, foram implementados os seguintes módulos:
+    MatButtonToggleModule,
+    MatCardModule,
+    MatDividerModule,
+    MatIconModule,
+    MatButtonModule,
+Foram criados os seguintes componentes:
+    AvatarIconComponent,
+    MapaComponent,
+    SidenavComponent
+A estilização foi feita em CSS.
+
+
+
