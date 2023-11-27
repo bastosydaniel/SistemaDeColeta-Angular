@@ -1,6 +1,3 @@
-A primeira dificuldade na criação da tela foi tentar igualar ou aproximar as versões do framework para funcionamento desejado.
-Já que o suporte do windows para 'n' é escasso e trabalhar um framework como angular na mão é uma tarefa extremamente redundante.
-Também tive que procurar uma tela pra fazer, entre muitas sem sequer uma label ou documentação decente,
-duvido bastante que a escolhida seja o dashboard de descartador (minha tarefa), mas optei por trabalhar com o que tem. 
+O wireframe para desktop aparentemente não existe, então esse é uma adaptação da versão mobile. Não me responsabilizo pela estética.
 
 Começando o desenvolvimento, optei por começar a criação dos componentes em shared, Icone, sidebar, entre outros. Utilizarei Angular Material.
