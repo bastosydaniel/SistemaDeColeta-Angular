@@ -1,0 +1,12 @@
+#container-mapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.example-card {
+    max-width: 850px;
+}
+
